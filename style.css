@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(101, 138, 86);
+}
+
+h1 {
+    font-size: 6.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px auto;
+    color: chartreuse;
+    border: 5px double black;
+}
+
+img {
+    display: block;
+    width: 50%;
+    align: center;
+    border: 5px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50%;
+}
+
+h3{
+    font-size: 2em;;
+    color:rgb(36, 36, 206);
+}
+
+li {
+    font-size: 1.5em;
+    color:rgb(36, 36, 206);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    font-size: 1em;
+    font-family:'Times New Roman', Times, serif;
+}
