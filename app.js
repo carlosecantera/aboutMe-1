@@ -8,7 +8,7 @@ alert('Welcome, ' +userName+ ' , I hope you enjoy the site!')
 let avage = prompt('What is my age?')
 
 if (avage === '27') {
-  alert('That\'s right!')
+  alert('That\'s right! You\'re 1 for 1 so far!')
 }
 
 else {
@@ -48,7 +48,7 @@ let avuabMascot = prompt('Do you know what UAB\'s mascot is? Great! Enter below!
 
 let lowercaseavuabMascot = avuabMascot.toLowerCase()
 
-console.log(lowercaseavuabMascot, 'This is the lowercase version')
+// console.log(lowercaseavuabMascot, 'This is the lowercase version')
 
 if (lowercaseavuabMascot === 'blazers') {
   alert('That\'s right! UAB Blazers! Go Blazers!')
@@ -78,7 +78,7 @@ function  guessingGame(){
             
         userGuess = prompt(guessLeft + ' Guesses left. To Low. Please enter a number 1-100');
       }
-      else if (userGuess > correctAnswer){
+      if (userGuess > correctAnswer){
       
         userGuess = prompt(guessLeft + ' Guesses left. To High, Please enter a number 1-100');
       }
@@ -92,3 +92,8 @@ function  guessingGame(){
     }
   }
 }
+
+let avArray= ['Tarantino', 'Coen', 'Scorsese']
+
+let avdirector= prompt('Who is my favorite Movie Director? Please only enter the last name.')
+
