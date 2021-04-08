@@ -1,63 +1,70 @@
-'use strict'
-let userName = prompt('Please Enter your Name!')
+'use strict';
+function userName1(){
+  let userName = prompt('Please Enter your Name!');
 
-console.log(userName)
+  console.log(userName);
 
-alert('Welcome, ' +userName+ ' , I hope you enjoy the site!')
-
-let avage = prompt('What is my age?')
-
-if (avage === '27') {
-  alert('That\'s right! You\'re 1 for 1 so far!')
+  alert('Welcome, ' +userName+ ' , I hope you enjoy the site!');
 }
+function avage1(){
+  let avage = prompt('What is my age?');
 
-else {
-  alert('Wrong! Try Again!')
+  if (avage === '27') {
+    alert('That\'s right! You\'re 1 for 1 so far!');
+  }
+
+  else {
+    alert('Wrong! Try Again!');
+  }
 }
+function avcity1(){
+  let avcity = prompt('What city did I grow up in?');
 
-let avcity = prompt('What city did I grow up in?')
+  if (avcity === 'Birmingham') {
+    alert('That\'s right!');
+  }
 
-if (avcity === 'Birmingham') {
-  alert('That\'s right!')
+  else {
+    alert('Wrong! Try Again!');
+  }
 }
+function avbranch1(){
+  let avbranch = prompt('What branch of the military did I serve in?');
 
-else {
-  alert('Wrong! Try Again!')
+  if (avbranch === 'navy') {
+    alert('That\'s right!');
+  }
+
+  else {
+    alert('Wrong! Try Again!');
+  }
 }
-let avbranch = prompt('What branch of the military did I serve in?')
+function avfavsport1(){
+  let avfavsport = prompt('What is my favorite sport?');
 
-if (avbranch === 'navy') { 
-  alert('That\'s right!')
+  if (avfavsport === 'football') {
+    alert('That\'s right!');
+  }
+
+  else {
+    alert('Wrong! Try Again!');
+  }
 }
+function avUAB(){
+  let avuabMascot = prompt('Do you know what UAB\'s mascot is? Great! Enter below!');
 
-else {
-  alert('Wrong! Try Again!')
+  let lowercaseavuabMascot = avuabMascot.toLowerCase();
+
+  // console.log(lowercaseavuabMascot, 'This is the lowercase version')
+
+  if (lowercaseavuabMascot === 'blazers') {
+    alert('That\'s right! UAB Blazers! Go Blazers!');
+  }
+
+  else {
+    alert('Wrong! Try Again!');
+  }
 }
-let avfavsport = prompt('What is my favorite sport?')
-
-
-if (avfavsport === 'football') {
-  alert('That\'s right!')
-}
-
-else {
-  alert('Wrong! Try Again!')
-}
-
-let avuabMascot = prompt('Do you know what UAB\'s mascot is? Great! Enter below!')
-
-let lowercaseavuabMascot = avuabMascot.toLowerCase()
-
-// console.log(lowercaseavuabMascot, 'This is the lowercase version')
-
-if (lowercaseavuabMascot === 'blazers') {
-  alert('That\'s right! UAB Blazers! Go Blazers!')
-}
-
-else {
-  alert('Wrong! Try Again!')
-}
-
 function  guessingGame(){
   
   let guessingGameYesOrNo = prompt('Do you want to play a guessing game?');
@@ -97,3 +104,9 @@ let avArray= ['Tarantino', 'Coen', 'Scorsese']
 
 let avdirector= prompt('Who is my favorite Movie Director? Please only enter the last name.')
 
+userName1();
+avage1();
+avcity1();
+avbranch1();
+avfavsport1();
+avUAB();
